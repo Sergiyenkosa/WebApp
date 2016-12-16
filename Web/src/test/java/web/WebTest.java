@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class WebTest {
     @Test
-    public void getHiFromCore() throws Exception {
+    public void testIsDependencyFromCoreIsWork() throws Exception {
         Assert.assertThat(new Web().getHiFromCore(), Is.is("Hi, I am Core)"));
     }
 }

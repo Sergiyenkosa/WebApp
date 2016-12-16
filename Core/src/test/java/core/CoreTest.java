@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class CoreTest {
     @Test
-    public void isDependencyFromDaoIsWorkTest() throws Exception {
+    public void testIsDependencyFromDaoIsWork() throws Exception {
         Assert.assertThat(new Core().getHiFromDao(), Is.is("Hi, I am Dao)"));
     }
 }
