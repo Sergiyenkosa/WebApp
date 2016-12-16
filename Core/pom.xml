@@ -7,6 +7,10 @@
     <artifactId>core</artifactId>
     <dependencies>
         <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
             <groupId>ua.skillsup.web.app</groupId>
             <artifactId>dao</artifactId>
         </dependency>
